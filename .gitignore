@@ -1,0 +1,25 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# PHP dependencies
+/vendor/
+
+# Environment/config secrets
+.env
+.env.*
+!.env.example
+
+# Runtime/data artifacts
+/storage/*.sqlite
+/storage/*.db
+/storage/*.log
+
+# Legacy/moved folder
+ltc/
